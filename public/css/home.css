@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../img/Patrick.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:inherit;
+    font-size:xx-large;
+    font-style: oblique;
+    font-family: monospace;
+    text-decoration-style: solid;
+
+
+
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #6dce0b;
+ 
+  
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #6dce0b;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    block-size: 20%;
+    margin-left: 25px;
+}
+
+header div ul li a {
+    color: #251991;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c5e4f3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;  
+}
+
+header div ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+header div ul li a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+header div ul li a:visited {
+    color: #6e60f3;
+    text-decoration: none;
+}
+header div .loginButton {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+header div.loginButton:hover {
+    color: #fff;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.loginButton {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:  center;
+    bottom:initial;
+
+
+}
+footer h2 {
+    font-size: 20px;
+}
