@@ -1,0 +1,23 @@
+{{!-- {{ navbar}} --}}
+<main>
+  <link rel="stylesheet" href="/css/login.css">
+  <h1>Login to Recipe Sharing App</h1>
+  <form id="login-form">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">Login</button>
+    <div class="login-form" type="text"></div>
+
+  </form>
+
+  <form class="search-form" action="/search" method="GET">
+
+    {{!-- <input type="text" name="q" placeholder="Search for recipes...">
+    <button type="submit">Search</button> --}}
+
+  </form>
+</main>
+<script src="/js/login.js"></script>
+{{!-- {{ footer}} --}}
